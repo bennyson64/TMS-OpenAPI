@@ -1,0 +1,16 @@
+{
+  "name": "@repo/openapi",
+  "version": "0.0.0",
+  "scripts": {
+    "generate": "openapi-typescript http://localhost:3000/openapi -o ./src/types.ts"
+  },
+  "devDependencies": {
+    "openapi-typescript": "catalog:default"
+  },
+  "exports": {
+    ".": "./src/client.ts"
+  },
+  "dependencies": {
+    "openapi-fetch": "catalog:"
+  }
+}

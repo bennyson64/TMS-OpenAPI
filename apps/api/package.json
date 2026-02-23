@@ -1,0 +1,35 @@
+{
+  "name": "@apps/api",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate"
+  },
+  "dependencies": {
+    "@hono/node-server": "catalog:default",
+    "@hono/standard-validator": "catalog:default",
+    "@hono/zod-openapi": "catalog:default",
+    "@hono/zod-validator": "catalog:default",
+    "@scalar/hono-api-reference": "catalog:default",
+    "drizzle-orm": "catalog:default",
+    "hono": "catalog:default",
+    "hono-openapi": "catalog:default",
+    "pg": "catalog:default",
+    "postgres": "catalog:default",
+    "uuid": "catalog:default",
+    "zod": "catalog:default",
+    "zod-openapi": "catalog:default",
+    "zod-to-json-schema": "catalog:default"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:default",
+    "@types/uuid": "catalog:default",
+    "drizzle-kit": "catalog:default",
+    "tsx": "catalog:default",
+    "typescript": "catalog:default"
+  },
+  "packageManager": "pnpm@10.28.2+sha512.41872f037ad22f7348e3b1debbaf7e867cfd448f2726d9cf74c08f19507c31d2c8e7a11525b983febc2df640b5438dee6023ebb1f84ed43cc2d654d2bc326264"
+}

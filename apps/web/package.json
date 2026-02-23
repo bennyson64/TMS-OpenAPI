@@ -1,0 +1,50 @@
+{
+  "name": "@apps/web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@repo/openapi": "workspace:*",
+    "@hookform/resolvers": "catalog:default",
+    "@tailwindcss/vite": "catalog:default",
+    "@tanstack/react-query": "catalog:default",
+    "class-variance-authority": "catalog:default",
+    "clsx": "catalog:default",
+    "lucide-react": "catalog:default",
+    "radix-ui": "catalog:default",
+    "react": "catalog:default",
+    "react-dom": "catalog:default",
+    "react-hook-form": "catalog:default",
+    "sonner": "catalog:default",
+    "tailwind-merge": "catalog:default",
+    "tailwindcss": "catalog:default",
+    "uuid": "catalog:default",
+    "vercel": "catalog:default",
+    "zod": "catalog:default",
+    "zustand": "catalog:default"
+  },
+  "devDependencies": {
+    "@eslint/js": "catalog:default",
+    "@types/node": "catalog:default",
+    "@types/react": "catalog:default",
+    "@types/react-dom": "catalog:default",
+    "@types/uuid": "catalog:default",
+    "@vitejs/plugin-react": "catalog:default",
+    "eslint": "catalog:default",
+    "eslint-plugin-react-hooks": "catalog:default",
+    "eslint-plugin-react-refresh": "catalog:default",
+    "globals": "catalog:default",
+    "shadcn": "catalog:default",
+    "tw-animate-css": "catalog:default",
+    "typescript": "catalog:default",
+    "typescript-eslint": "catalog:default",
+    "vite": "catalog:default"
+  },
+  "packageManager": "pnpm@10.28.2+sha512.41872f037ad22f7348e3b1debbaf7e867cfd448f2726d9cf74c08f19507c31d2c8e7a11525b983febc2df640b5438dee6023ebb1f84ed43cc2d654d2bc326264"
+}

@@ -1,6 +1,6 @@
 import "dotenv/config"
 import { Hono } from "hono";
-import { serve } from "@hono/node-server";
+// import { serve } from "@hono/node-server";
 import { cors } from "hono/cors";
 import { v4 as uuid } from "uuid";
 const app = new Hono();
@@ -126,11 +126,11 @@ app.get(
   })
 )
 
-serve({
-  fetch: app.fetch,
-  port: 3000
-})
+// serve({
+//   fetch: app.fetch,
+//   port: 3000
+// })
 
-console.log('Backend running on http://localhost:3000')
+// console.log('Backend running on http://localhost:3000')
 
 export default app;

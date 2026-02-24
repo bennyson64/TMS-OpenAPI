@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useQuery } from "@tanstack/react-query";
 import { TaskActions } from  "@/components/taskAction";
-import { apiClient } from "@repo/openapi/";
+import { apiClient } from "@repo/openapi";
 
 type Task = {
   id: string;

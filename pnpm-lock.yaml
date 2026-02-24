@@ -54,6 +54,9 @@ catalogs:
     clsx:
       specifier: ^2.1.1
       version: 2.1.1
+    dotenv:
+      specifier: ^17.3.1
+      version: 17.3.1
     drizzle-kit:
       specifier: ^0.31.9
       version: 0.31.9
@@ -188,6 +191,9 @@ importers:
       '@scalar/hono-api-reference':
         specifier: catalog:default
         version: 0.9.44(hono@4.12.0)
+      dotenv:
+        specifier: catalog:default
+        version: 17.3.1
       drizzle-orm:
         specifier: catalog:default
         version: 0.45.1(pg@8.18.0)(postgres@3.4.8)

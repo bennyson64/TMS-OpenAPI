@@ -3,11 +3,11 @@ import { useQuery } from "@tanstack/react-query";
 import { TaskActions } from  "@/components/taskAction";
 import { apiClient } from "@repo/openapi";
 
-type Task = {
-  id: string;
-  title: string;
-  description: string;
-};
+// type Task = {
+//   id: string;
+//   title: string;
+//   description: string;
+// };
 
 export default function DisplayForm() {
   const { data: tasks = [], isLoading, error } = useQuery({
